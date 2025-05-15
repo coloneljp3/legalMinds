@@ -14,7 +14,7 @@ res.send(model)
 
 })})
 
-app.use('/.netlify/functions/WORD2VEC',router);
+app.use('/.netlify/functions/word2vec',router);
 module.exports.handler = serverless(app)
 
 

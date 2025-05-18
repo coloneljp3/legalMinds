@@ -8,7 +8,7 @@ var router = express.Router();
 var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
-router.get('/',(req,res)=>{w2v.loadModel('https://legalpro.netlify.app/info.txt',(error,model)=>{
+router.get('/',(req,res)=>{res.send(__dirname);w2v.loadModel('/',(error,model)=>{
 
 res.send(model)
 

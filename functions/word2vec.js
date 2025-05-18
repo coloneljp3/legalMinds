@@ -37,7 +37,7 @@ router.get('/',(req,res)=>{
 //},callback)
 
   
-  w2v.loadModel('/var/task/functions/info',(error,model)=>{
+  w2v.loadModel('/var/task/functions/info.js',(error,model)=>{
 //model object
  // .words = number of unique words in the traingin corpus
   //.size = length of the learned word vectors

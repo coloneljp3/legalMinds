@@ -1,4 +1,5 @@
 'use strict'
+var w2v = require('word2vec')
 var mysql = require('mysql2')
 var serverless = require('serverless-http')
 var express = require('express')
